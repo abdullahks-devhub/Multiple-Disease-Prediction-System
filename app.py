@@ -83,9 +83,6 @@ st.markdown("""
             color: #aaaacc;
             font-size: 14px;
         }
-        section[data-testid="stSidebar"] {
-            background-color: #0d0d1a;
-        }
     </style>
 """, unsafe_allow_html=True)
 
