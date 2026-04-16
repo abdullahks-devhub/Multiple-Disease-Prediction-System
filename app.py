@@ -72,7 +72,7 @@ st.markdown("""
             margin-bottom: 4px;
         }
         h1, h2, h3 {
-            color: white !important;
+            color: black !important;
         }
         .info-box {
             background: linear-gradient(135deg, #1a1a2e, #16213e);
@@ -101,7 +101,7 @@ diabetes_model, scaler, heart_disease_model, heart_scaler, parkinsons_model, par
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("### 🧑‍⚕️ Health Assistant")
+    st.markdown("<h3 style='color: black !important;'>🧑‍⚕️ Health Assistant</h3>", unsafe_allow_html=True)
     st.markdown("---")
     selected = option_menu(
         'Disease Prediction',
