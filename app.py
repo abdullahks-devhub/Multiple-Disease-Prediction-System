@@ -112,7 +112,7 @@ with st.sidebar:
         icons=['activity', 'heart-pulse', 'person-lines-fill'],
         default_index=0,
         styles={
-            "container": {"background-color": "#0d0d1a"},
+            # "container": {"background-color": "#0d0d1a"},
             "icon": {"color": "#4e9af1", "font-size": "18px"},
             "nav-link": {"color": "#aaaacc", "font-size": "15px"},
             "nav-link-selected": {"background-color": "#1a1a3e", "color": "white"},
