@@ -10,8 +10,8 @@ st.set_page_config(page_title="Health Assistant",
 # ── Custom CSS ─────────────────────────────────────────────────────────────────
 st.markdown("""
     <style>
-        body { background-color: #0f0f0f; }
-        .main { background-color: #0e1117; }
+        # body { background-color: #0f0f0f; }
+        # .main { background-color: #0e1117; }
 
         .disease-card {
             background: linear-gradient(145deg, #1f1f2e, #2a2a3e);
